@@ -11,7 +11,7 @@ Employee.prototype.display = function () {
 };
   
 
-function setupEmployees(name, title, age) {
+function setupEmployees() {
   const container = document.getElementById("hero")
   const employee1 = new Employee("ilhan", "backend engineer", 19);
   const employee2 = new Employee("sanjay", "frontend engineer", 20);
